@@ -1,107 +1,200 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="es-AR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ricuras Fiestas | Eventos Inolvidables</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ricuras Fiestas organiza eventos, catering, quincho con pileta, perniles y alquileres en Corrientes Capital. Más de 30 años creando celebraciones.">
+  <meta name="theme-color" content="#173f32">
+  <title>Ricuras Fiestas | Eventos y catering en Corrientes</title>
+  <link rel="icon" href="assets/images/brand/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Ricuras Fiestas",
+    "description": "Organización integral de eventos, catering, alquiler de quincho, perniles y mobiliario.",
+    "telephone": "+54 9 379 503-8571",
+    "email": "videoariel132@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Lamadrid 3222",
+      "addressLocality": "Corrientes Capital",
+      "addressCountry": "AR"
+    },
+    "sameAs": [
+      "https://www.instagram.com/ricuras_fiestas/",
+      "https://www.facebook.com/RicurasFiestas"
+    ]
+  }
+  </script>
 </head>
-<body>
-<header>
-    <nav class="main-nav">
-        <ul>
-            <li><a href="#home">Inicio</a></li>
-            <li><a href="#servicios">Servicios</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-            <li>
-    <div class="theme-switch-wrapper">
-        <span id="theme-text">Modo Claro</span>
-        <label class="switch">
-            <input type="checkbox" id="theme-toggle">
-            <span class="slider"></span>
-        </label>
-    </div>
-</li>
-        </ul>
-    </nav>
-</header>   
+<body data-page="inicio">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <div data-site-header></div>
 
-<main>
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="glow-text">Ricuras Fiestas</h1>
-            <hr class="glow-hr">
-            <p class="subtitle"><strong>Más de 35 años creando momentos únicos.</strong></p>
-            <p class="description">
-                Somos una empresa dedicada a la organización de eventos especiales. 
-                Contamos con alquiler de mobiliario, catering, entretenimiento y un exclusivo quincho con pileta 
-                para que tu celebración sea exactamente como la soñaste.
-            </p>
+  <main id="contenido">
+    <section class="home-hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Más de 30 años creando celebraciones</span>
+          <h1>Todo para celebrar. <em>Un solo equipo</em> para hacerlo realidad.</h1>
+          <p class="lead">Organizamos cada detalle de tu evento en Corrientes: espacio, ambientación, catering, mobiliario y atención personalizada.</p>
+          <div class="hero-actions">
+            <a class="button button--primary" href="#" data-whatsapp="Hola, quiero contarles mi idea y solicitar una cotización personalizada para un evento.">Cotizar mi evento</a>
+            <a class="button button--outline" href="#servicios">Conocer servicios</a>
+          </div>
+          <div class="hero-trust" aria-label="Principales fortalezas">
+            <div><strong>30+</strong><span>Años de experiencia</span></div>
+            <div><strong>5</strong><span>Servicios integrados</span></div>
+            <div><strong>1:1</strong><span>Atención personalizada</span></div>
+          </div>
         </div>
-        <div class="hero-image">
-            <img src="Fotoperfil.png" alt="Ricuras Fiestas Logo" class="profile-img" />
+
+        <div class="hero-collage reveal" aria-label="Selección de trabajos de Ricuras Fiestas">
+          <figure class="hero-photo hero-photo--main">
+            <img src="assets/images/eventos/evento-15.webp" alt="Mesa dulce rosa preparada por Ricuras Fiestas" width="1600" height="1200">
+          </figure>
+          <figure class="hero-photo hero-photo--small">
+            <img src="assets/images/quincho/quincho-02.webp" alt="Pileta del quincho durante el día" width="1600" height="900">
+          </figure>
+          <p class="hero-note">De la primera idea al último detalle.</p>
         </div>
+      </div>
     </section>
 
-    <section id="servicios" class="container">
-        <h2 class="center glow-text"><u>Nuestros Servicios</u></h2>
+    <section class="section section--cream" id="servicios">
+      <div class="container">
+        <header class="section-heading reveal">
+          <span class="eyebrow">Soluciones para cada celebración</span>
+          <h2>Elegí cómo querés festejar</h2>
+          <p>Podés contratar un servicio puntual o combinar todo en una propuesta personalizada para tu fecha, cantidad de invitados y estilo.</p>
+        </header>
+
         <div class="services-grid">
-            
-            <article id="quincho" class="card">
-                <h3>Quincho con Pileta</h3>
-                <p>Un espacio ideal para celebraciones familiares y reuniones sociales al aire libre.</p>
-            </article>
+          <a class="service-card reveal" href="eventos.html">
+            <img src="assets/images/eventos/evento-13.webp" alt="Salón de eventos iluminado en azul" loading="lazy" decoding="async">
+            <span class="service-card-content">
+              <span class="service-card-number">01 · Servicio integral</span>
+              <h3>Eventos</h3>
+              <p>Planificación, ambientación, gastronomía, sonido, foto y todos los detalles en una propuesta a medida.</p>
+              <span class="text-link">Ver eventos <span aria-hidden="true">→</span></span>
+            </span>
+          </a>
 
-            <article id="perniles" class="card">
-                <h3>Perniles</h3>
-                <p>La mejor calidad en perniles para que tus invitados disfruten del mejor sabor.</p>
-            </article>
+          <a class="service-card reveal" href="quincho.html">
+            <img src="assets/images/quincho/quincho-08.webp" alt="Pileta del quincho iluminada por la noche" loading="lazy" decoding="async">
+            <span class="service-card-content">
+              <span class="service-card-number">02 · Espacio propio</span>
+              <h3>Quincho</h3>
+              <p>Un espacio cerrado con pileta, parrilla y equipamiento para disfrutar de día o de noche.</p>
+              <span class="text-link">Conocer el quincho <span aria-hidden="true">→</span></span>
+            </span>
+          </a>
 
-            <article id="catering" class="card">
-                <h3>Catering</h3>
-                <p>Variedad de opciones gastronómicas adaptadas a cada tipo de evento.</p>
-            </article>
+          <a class="service-card reveal" href="catering.html">
+            <img src="assets/images/catering/catering-03.webp" alt="Mesa con variedad de bocaditos" loading="lazy" decoding="async">
+            <span class="service-card-content">
+              <span class="service-card-number">03 · Sabor artesanal</span>
+              <h3>Catering</h3>
+              <p>Bocaditos, mesas completas, tortas y atención para celebraciones de todos los tamaños.</p>
+              <span class="text-link">Ver opciones <span aria-hidden="true">→</span></span>
+            </span>
+          </a>
 
-            <article id="alquileres" class="card">
-                <h3>Alquileres</h3>
-                <p>Todo el mobiliario y decoración necesaria para equipar tu fiesta.</p>
-            </article>
+          <a class="service-card reveal" href="perniles.html">
+            <img src="assets/images/perniles/pernil-02.webp" alt="Perniles dorados recién cocinados" loading="lazy" decoding="async">
+            <span class="service-card-content">
+              <span class="service-card-number">04 · Listo para compartir</span>
+              <h3>Perniles</h3>
+              <p>Pernil chico o grande, feteado y acompañado por una selección de salsas.</p>
+              <span class="text-link">Ver tamaños <span aria-hidden="true">→</span></span>
+            </span>
+          </a>
 
-            <article id="dj" class="card">
-                <h3>Servicio de DJ</h3>
-                <p>Sonido e iluminación profesional para que la música no falte en tu evento.</p>
-            </article>
-
-            <article id="organizacion" class="card">
-                <h3>Organización de eventos</h3>
-                <p>Nos encargamos de todos los detalles para garantizar el éxito total.</p>
-            </article>
-
+          <a class="service-card reveal" href="alquileres.html">
+            <img src="assets/images/eventos/evento-01.webp" alt="Mesa vestida con vajilla y sillas" loading="lazy" decoding="async">
+            <span class="service-card-content">
+              <span class="service-card-number">05 · Equipá tu fiesta</span>
+              <h3>Alquileres</h3>
+              <p>Vajilla, mantelería, mesas, sillas, livings y textiles para completar tu celebración.</p>
+              <span class="text-link">Consultar catálogo <span aria-hidden="true">→</span></span>
+            </span>
+          </a>
         </div>
+      </div>
     </section>
 
-    <section>
-        <h2 class="center glow-text"><u>Información de contacto</u></h2>
-    </section>  
-    <section id="contacto" class="container">
-        <div class="contact-card">
-            <h2 class="glow-text center">¿Listos para empezar a planear?</h2>
-            <div class="contact-buttons">
-                <a href="https://wa.me/5493794884233" target="_blank" class="btn">WhatsApp</a>
-                <a href="https://www.instagram.com/ricuras_fiestas/" target="_blank" class="btn">Instagram</a>
-                <a href="mailto:pinchu976@gmail.com" class="btn">Correo</a>
+    <section class="section">
+      <div class="container editorial-grid">
+        <div class="editorial-media reveal">
+          <img src="assets/images/catering/catering-10.webp" alt="Bandejas de canapés elaborados por Ricuras Fiestas" loading="lazy" decoding="async">
+          <span class="editorial-badge">Hecho con dedicación</span>
+        </div>
+        <div class="editorial-copy reveal">
+          <span class="eyebrow">Experiencia que acompaña</span>
+          <h2>Una celebración se recuerda por cómo te hizo sentir</h2>
+          <p class="lead">Por eso no trabajamos con soluciones impersonales. Escuchamos tu idea y combinamos los servicios que realmente necesita tu evento.</p>
+          <ul class="check-list">
+            <li>Propuestas adaptadas al estilo y escala de cada festejo.</li>
+            <li>Equipo propio para gastronomía, montaje y atención.</li>
+            <li>Opciones para eventos en nuestro quincho o en otros salones y casas de campo.</li>
+          </ul>
+          <a class="button button--primary" href="eventos.html">Descubrir el servicio integral</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--forest">
+      <div class="container">
+        <header class="section-heading reveal">
+          <span class="eyebrow">Un proceso simple</span>
+          <h2>Tu idea, bien acompañada</h2>
+          <p>La cotización es personalizada para que pagues por lo que tu celebración necesita.</p>
+        </header>
+        <div class="steps">
+          <article class="step reveal">
+            <h3>Contanos tu idea</h3>
+            <p>Fecha, cantidad de personas, tipo de festejo y los servicios que te interesan.</p>
+          </article>
+          <article class="step reveal">
+            <h3>Armamos la propuesta</h3>
+            <p>Combinamos espacio, gastronomía, ambientación y equipamiento según tu necesidad.</p>
+          </article>
+          <article class="step reveal">
+            <h3>Celebrá tranquilo</h3>
+            <p>Coordinamos los detalles para que puedas dedicarte a disfrutar con tus invitados.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-band reveal">
+          <div class="cta-band-content">
+            <div>
+              <span class="eyebrow">Empecemos a planificar</span>
+              <h2>¿Qué te gustaría celebrar?</h2>
+              <p>Escribinos por WhatsApp y recibí una cotización personalizada según tu fecha, invitados y servicios.</p>
             </div>
+            <a class="button button--gold" href="#" data-whatsapp="Hola, quiero solicitar una cotización personalizada para mi celebración.">Hablar por WhatsApp</a>
+          </div>
         </div>
+        <div class="payment-strip" aria-label="Medios de pago disponibles">
+          <span>Crédito</span><span>Débito</span><span>Efectivo</span><span>Transferencia</span>
+        </div>
+      </div>
     </section>
-</main>
+  </main>
 
-<footer>
-    <p>&copy; 2026 Ricuras Fiestas | Organización de Eventos</p>
-</footer>
-
-<script src="script.js"></script>
+  <div data-site-footer></div>
+  <a class="whatsapp-float" data-whatsapp-float href="#" aria-label="Consultar por WhatsApp"></a>
+  <script src="js/content.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
